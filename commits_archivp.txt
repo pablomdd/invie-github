@@ -1,0 +1,73 @@
+commit 755a91d5cbfef346c9074ffbafc9ed56c07d01a2
+Author: pablomdd <pablo.mdd.007@gmail.com>
+Date:   Mon Dec 24 18:03:29 2018 -0600
+
+    agregando guitarra acustica y clasica
+
+
+commit b3427faa38b4bc7ef42f0e890202fc0e502cae02
+Author: pablomdd <pablo.mdd.007@gmail.com>
+Date:   Mon Dec 24 17:57:37 2018 -0600
+
+    sumando nuevo hero
+
+
+commit 8a38f2baf7bcdb87a8ebe54997974fa3e7e912c1
+Author: pablomdd <pablo.mdd.007@gmail.com>
+Date:   Sun Dec 16 21:56:48 2018 -0600
+
+    agregando el header
+
+
+commit e6ab55f6eaa9a29d201990b181fee60771763e57
+Author: pablomdd <pablo.mdd.007@gmail.com>
+Date:   Sun Dec 16 21:44:08 2018 -0600
+
+    inicializamos nuestro landing
+
+
+https://drive.google.com/open?id=1zl57KD8tAc6iw0b6w53TCzSU9zBEaTC_
+https://drive.google.com/uc?export=download&id=1zl57KD8tAc6iw0b6w53TCzSU9zBEaTC
+
+
+https://drive.google.com/open?id=1VWT1LnkQNGD9HBGc7E9GBOgXQZuqrPt2_
+https://drive.google.com/uc?export=download&id=1VWT1LnkQNGD9HBGc7E9GBOgXQZuqrPt2_
+
+https://drive.google.com/open?id=1nlxIgf6mo3nQqtcKcNgVra-Au59OqRU2
+https://drive.google.com/uc?export=download&id=1nlxIgf6mo3nQqtcKcNgVra-Au59OqRU2
+
+
+https://drive.google.com/open?id=1W8y0E6i6HGkGFbFaLawYwOkB8zzqLZWK
+https://drive.google.com/uc?export=download&id=1W8y0E6i6HGkGFbFaLawYwOkB8zzqLZWK
+
+
+https://drive.google.com/open?id=1EtjthjErucbajA3_jb0f6MKwTR018nQk
+https://drive.google.com/uc?export=download&id=1EtjthjErucbajA3_jb0f6MKwTR018nQk
+
+Seamos sinceros, solo a los Wizards de la programación les gusta Vim, o de perdida Emacs. Es finales de 2018 y la gente cool y que se hace notar usa VS Code, veamos como hacerlo editor por defecto en Git en Windows 10. También, ejemplifico para cualquier editor de texto.
+
+Es algo confuso ejecutar una app que contiene espacios en el nombre, por ello, necesitamos su nombre o archivo de ejecución. Podemos obtenerlo simplemente buscando su nombre, haciendo click derecho, y tenemos dos opciones:
+![](https://drive.google.com/uc?export=download&id=1zl57KD8tAc6iw0b6w53TCzSU9zBEaTC)
+- **Ubicarlo ** y **ver el nombre** de su ejecutable `.exe`
+
+- **Ejecutar como Administrador**, ver detalles, y nos dará toda la ruta del ejecutable. Claro, solo nos sirve el nombre del archivo.
+
+_Los chavos de Microsoft pensaron en que el ejecutable  de VSC fuera una sola parabra. Genial!_
+
+Para asegurarnos que este nombre nos servirá, pobremos antes en **Ejecutar** (o en el nombre de antaño que lo conozcas).
+![](https://drive.google.com/uc?export=download&id=1EtjthjErucbajA3_jb0f6MKwTR018nQk)
+
+Notamos que `Code.exe` no no sirve, sino que solo `Code`. Esto se debe a que Windows desde el command prompt sabe que cuando llamamos a una app, espera más bien, a que sea un `.exe` o algo que no le cause una excepción. O desde otro punto de vista, por que estamos ejecutando un programa desde **Ejecutar**, `Ejecutar == exe = execute`. ¿Hace sentido? Suena más bien irónico, pero Windows y sus cosas.
+
+Entrando a Git:
+
+1. En la Git Bash que viene incluída en la instalación escribimos:
+`git config --global core.editor "Code --wait"`
+
+2.Probamos con un `commit`.
+![](https://drive.google.com/uc?export=download&id=1nlxIgf6mo3nQqtcKcNgVra-Au59OqRU2)
+
+3. Hacemos un git log para ver los efectos.
+![](https://drive.google.com/uc?export=download&id=1W8y0E6i6HGkGFbFaLawYwOkB8zzqLZWK)
+
+No debería haber más problema. _gg_
